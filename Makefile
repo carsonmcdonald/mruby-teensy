@@ -3,7 +3,7 @@
 # example:
 # TD_PATH ?= /some/path/to/Arduino-6.12.app/Contents/Java/
 #
-TD_PATH ?= /Users/carsonm/Desktop/Arduino-6.12.app/Contents/Java/
+TD_PATH ?= <put your Teensyduino path here>
 
 MCU=MK66FX1M0
 MCU_LD=mk66fx1m0.ld
