@@ -1,5 +1,3 @@
-#include "WProgram.h"
-
 #include "mruby.h"
 #include "mruby/irep.h"
 
