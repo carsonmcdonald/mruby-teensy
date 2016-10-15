@@ -23,5 +23,8 @@ Teensy 3.6 board run the following:
 make install
 ```
 
+You will find the source for the program split between two the csrc directory
+where the C source is and the rbsrc directory where the ruby source is.
+
 The included mruby program currently doesn't do any more than set a variable
 to a value. I hope to make more complicated examples as I find the time.
