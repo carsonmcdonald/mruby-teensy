@@ -12,8 +12,9 @@ Once you have Teensyduino you will need to recursively clone this project:
 git clone --recursive https://github.com/carsonmcdonald/mruby-teensy.git
 ```
 
-Once cloned you will need to edit the Makefile so that the "TD_PATH" variable
-is pointing to your Teensyduino installation.
+Once cloned you will need to make a copy of the Makefile.example to Makefile
+and then change the "TD_PATH" variable in the Makefile so that it is 
+pointing to your Teensyduino installation.
 
 At this point you are ready to build. If you wish to install directly to the
 Teensy 3.6 board run the following:
