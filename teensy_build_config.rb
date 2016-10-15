@@ -1,7 +1,5 @@
 MRuby::Build.new do |conf|
 
-  #build_dir = 'build/mruby'
-
   # Gets set by the VS command prompts.
   if ENV['VisualStudioVersion'] || ENV['VSINSTALLDIR']
     toolchain :visualcpp
